@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-mostraQuadrado(){
+int mostraQuadrado(){
     printf("XXXXX\n");
     printf("X   X\n");
     printf("X   X\n");

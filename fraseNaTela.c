@@ -1,6 +1,6 @@
-#include <stdio.h>.
+#include <stdio.h>
 
-escreve(){
+int escreve(){
     printf("O primeiro programa a gente nunca esquece!");
 }
 

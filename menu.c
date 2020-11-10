@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-mostraMenu() {
+int mostraMenu() {
 
     printf("Cadastro de clientes\n");
     printf("0 - Fim\n");

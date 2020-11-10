@@ -1,11 +1,18 @@
 #include <stdio.h>
 
-char nome[40];
-char endereco[50];
-int cep;
-int telefone;
+escrevaDados(char nome[40], char endereco[50], int cep, int telefone) {
+    printf("\nNome: %s", nome);
+    printf("Endereco: %s", endereco);
+    printf("Cep: %d, Telefone: %d", cep, telefone);
+}
 
 leiaDados(){
+
+    char nome[40];
+    char endereco[50];
+    int cep;
+    int telefone;
+
     printf("Digite seu nome completo: ");
     fgets(nome, 40, stdin);
 
@@ -18,17 +25,14 @@ leiaDados(){
     printf("Digite seu telefone (9XXXXXXXX): ");
     scanf("%d", &telefone);
 
+    escrevaDados(nome, endereco, cep, telefone);
+
 }
 
-escrevaDados() {
-    printf("\nNome: %s", nome);
-    printf("Endereco: %s", endereco);
-    printf("Cep: %d, Telefone: %d", cep, telefone);
-}
+
 
 int main() {
-    leiaDados();
-    escrevaDados();
 
+    leiaDados();
     return 0;
 }

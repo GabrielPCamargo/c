@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-mostraLetra() {
+int mostraLetra() {
 
     printf("CCCCC\n");
     printf("C\n");
