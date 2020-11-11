@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-escrevaDados(char nome[40], char endereco[50], int cep, int telefone) {
+int escrevaDados(char nome[40], char endereco[50], int cep, int telefone) {
     printf("\nNome: %s", nome);
     printf("Endereco: %s", endereco);
     printf("Cep: %d, Telefone: %d", cep, telefone);
 }
 
-leiaDados(){
+int leiaDados(){
 
     char nome[40];
     char endereco[50];
